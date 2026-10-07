@@ -1,0 +1,37 @@
+#===| PYTHON |===#
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+
+#===| BUILD |===#
+*.so
+*.c
+/build/
+/dist/
+/zips/
+/*.egg-info/
+
+#===| VIRTUAL ENV |===#
+.venv/
+env/
+venv/
+ENV/
+
+#===| LOGS & CONFIG |===#
+*.log
+*.pot
+*.mo
+
+#===| IDEs |===#
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#===| TESTS |===#
+.coverage
+.pytest_cache/
+.tox/
+.mypy_cache/

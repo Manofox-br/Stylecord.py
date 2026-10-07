@@ -1,0 +1,19 @@
+[tool.poetry]
+name="stylecord"
+version="0.1.0"
+description="A Python library for styling and integration."
+authors=["Manofox-br"]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+picows = ">=2.3.1"
+requests = ">=2.31.0"
+httpx = ">=0.28.1"
+cython = ">=3.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=9.1.1"
+
+[build-system]
+requires = ["setuptools", "wheel", "cython"]
+build-backend = "setuptools.build_meta"
