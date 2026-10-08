@@ -3,7 +3,7 @@ from .._utils import restapi
 from ..types.snowflake import Snowflake
 
 from ..errors.errors import BadArgument
-from ._convert import find_channel_data
+from ._utils.convert import find_channel_data
 
 from .user import User
 

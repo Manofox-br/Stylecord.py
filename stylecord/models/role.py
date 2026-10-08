@@ -1,6 +1,6 @@
 from ..types.snowflake import Snowflake
 
-from ._convert import ROLE_MENTION, match_id, require_guild, fail
+from ._utils.convert import ROLE_MENTION, match_id, require_guild, fail
 
 class Role:
     def __init__(self, data:dict):

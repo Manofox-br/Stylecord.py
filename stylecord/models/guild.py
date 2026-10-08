@@ -8,7 +8,7 @@ from .sticker import Sticker
 from .assets import Asset, GuildAssets
 from .channel import Channel
 from .user import User
-from ._convert import find_guild_data
+from ._utils.convert import find_guild_data
 
 class Guild:
     def __init__(

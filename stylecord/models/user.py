@@ -1,7 +1,7 @@
 from .._utils import restapi
 
 from ..types.snowflake import Snowflake
-from ._convert import USER_MENTION, match_id, find_user_data, find_member_data, search_member_data, fail
+from ._utils.convert import USER_MENTION, match_id, find_user_data, find_member_data, search_member_data, fail
 
 from .assets import Asset, UserAssets
 

@@ -69,7 +69,7 @@ install_lib("webcolors")
 #===| CONSTRUCT AND SETUP |===#
 setup(
     name="stylecord.py",
-    version="0.1.0",
+    version="0.1.1",
     description="A Python library for styling and integration.",
     #long_description=open("docs/README.md").read(),
     #long_description_content_type="text/markdown",

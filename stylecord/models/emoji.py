@@ -1,6 +1,6 @@
 from ..types.snowflake import Snowflake
 
-from ._convert import EMOJI_MENTION, RAW_ID, require_guild, fail
+from ._utils.convert import EMOJI_MENTION, RAW_ID, require_guild, fail
 
 class Emoji:
     def __init__(self, data:dict):
