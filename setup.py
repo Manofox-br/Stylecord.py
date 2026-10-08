@@ -69,11 +69,11 @@ install_lib("webcolors")
 #===| CONSTRUCT AND SETUP |===#
 setup(
     name="stylecord.py",
-    version="0.1.1",
-    description="A Python library for styling and integration.",
-    #long_description=open("docs/README.md").read(),
-    #long_description_content_type="text/markdown",
-    #url="https://www.github.com/Manofox-br/pyfusion",
+    version="0.1.2",
+    description="A Discord library focused on balancing simplicity, ease of use, and performance.",
+    long_description=open("docs/README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://www.github.com/Manofox-br/Stylecord.py",
     author="Manofox-br",
     license="MIT",
 

@@ -1,19 +1,29 @@
-[tool.poetry]
-name="stylecord"
-version="0.1.0"
-description="A Python library for styling and integration."
-authors=["Manofox-br"]
+[project]
+name = "stylecord"
+version = "0.1.2"
+description = "A Discord library focused on balancing simplicity, ease of use, and performance."
+readme = "docs/README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Manofox-br" }
+]
 
-[tool.poetry.dependencies]
-python = ">=3.10"
-picows = ">=2.3.1"
-requests = ">=2.31.0"
-httpx = ">=0.28.1"
-cython = ">=3.3.0"
+dependencies = [
+    "picows>=2.3.1",
+    "requests>=2.31.0",
+    "httpx>=0.28.1",
+    "cython>=3.3.0"
+]
 
-[tool.poetry.dev-dependencies]
-pytest = ">=9.1.1"
+[project.urls]
+Repository = "https://github.com/Manofox-br/Stylecord.py"
+Issues = "https://github.com/Manofox-br/Stylecord.py/issues"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1"
+]
 
 [build-system]
-requires = ["setuptools", "wheel", "cython"]
+requires = ["setuptools>=68.0", "wheel", "cython>=3.3.0"]
 build-backend = "setuptools.build_meta"

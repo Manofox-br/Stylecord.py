@@ -3,7 +3,7 @@
 
 ---
 
-1. Vamos começar importado as instâncias nessesarias:
+1. Vamos começar importando as blibiotecas nessesarias:
 ```py
 import stylecord
 ```
@@ -31,3 +31,18 @@ async def on_ready():
 client.run("SEU-TOKEN")
 ```
 #### *Troque 'SEU-TOKEN' pelo token da sua aplicação do [Discord Devloper Portal](https://www.discord.com/developers/applications)
+
+### 📜 CÓDIGO COMPLETO:
+```py
+import stylecord
+
+intents = stylecord.Intents()
+
+client = stylecord.Client(intents=intents)
+
+@client.event # decorador que diz ao python: Ei! essa função é um evento que teve ser chamado.
+async def on_ready():
+    print(f"O client {client.user.tag} acabou de logar!")
+
+client.run("SEU-TOKEN")
+```
