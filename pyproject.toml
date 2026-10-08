@@ -1,6 +1,6 @@
 [project]
 name = "stylecord"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Discord library focused on balancing simplicity, ease of use, and performance."
 readme = "docs/README.md"
 requires-python = ">=3.10"
