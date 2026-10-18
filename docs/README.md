@@ -14,4 +14,4 @@
 ---
 
 ## Por onde começar?
-- Iniciando: [starting](starting.md)
+- Iniciando: [Starting](starting.md)
